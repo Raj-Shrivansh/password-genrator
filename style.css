@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: #ffffff;
+}
+
+header {
+    top: 0;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: auto;
+}
+footer{
+    bottom: 0;
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 60px;
+}
+
+.password-genrator {
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-size: 100px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    margin:auto;
+}
+.password-genrator input{
+    height: 20px;
+}
